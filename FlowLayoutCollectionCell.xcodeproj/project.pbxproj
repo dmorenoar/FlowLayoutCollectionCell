@@ -14,6 +14,8 @@
 		33573A8A2230100A00E2FB62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33573A882230100A00E2FB62 /* LaunchScreen.storyboard */; };
 		33573A952230100A00E2FB62 /* FlowLayoutCollectionCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33573A942230100A00E2FB62 /* FlowLayoutCollectionCellTests.swift */; };
 		33573AA02230100A00E2FB62 /* FlowLayoutCollectionCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33573A9F2230100A00E2FB62 /* FlowLayoutCollectionCellUITests.swift */; };
+		33573AAF2230115900E2FB62 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33573AAE2230115900E2FB62 /* Planet.swift */; };
+		33573AB1223013E700E2FB62 /* CollectionViewCellCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33573AB0223013E700E2FB62 /* CollectionViewCellCustom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		33573A9B2230100A00E2FB62 /* FlowLayoutCollectionCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowLayoutCollectionCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33573A9F2230100A00E2FB62 /* FlowLayoutCollectionCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayoutCollectionCellUITests.swift; sourceTree = "<group>"; };
 		33573AA12230100A00E2FB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33573AAE2230115900E2FB62 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		33573AB0223013E700E2FB62 /* CollectionViewCellCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellCustom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		33573A732230100900E2FB62 = {
 			isa = PBXGroup;
 			children = (
+				33573AB0223013E700E2FB62 /* CollectionViewCellCustom.swift */,
 				33573A7E2230100900E2FB62 /* FlowLayoutCollectionCell */,
 				33573A932230100A00E2FB62 /* FlowLayoutCollectionCellTests */,
 				33573A9E2230100A00E2FB62 /* FlowLayoutCollectionCellUITests */,
@@ -97,6 +102,7 @@
 		33573A7E2230100900E2FB62 /* FlowLayoutCollectionCell */ = {
 			isa = PBXGroup;
 			children = (
+				33573AAD2230114C00E2FB62 /* Models */,
 				33573A7F2230100900E2FB62 /* AppDelegate.swift */,
 				33573A812230100900E2FB62 /* ViewController.swift */,
 				33573A832230100900E2FB62 /* Main.storyboard */,
@@ -123,6 +129,14 @@
 				33573AA12230100A00E2FB62 /* Info.plist */,
 			);
 			path = FlowLayoutCollectionCellUITests;
+			sourceTree = "<group>";
+		};
+		33573AAD2230114C00E2FB62 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33573AAE2230115900E2FB62 /* Planet.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33573AAF2230115900E2FB62 /* Planet.swift in Sources */,
 				33573A822230100900E2FB62 /* ViewController.swift in Sources */,
 				33573A802230100900E2FB62 /* AppDelegate.swift in Sources */,
+				33573AB1223013E700E2FB62 /* CollectionViewCellCustom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
